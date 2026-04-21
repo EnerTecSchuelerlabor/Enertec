@@ -15,8 +15,8 @@ VERSUCH_2_BILD = "img/wind.png"
 VERSUCH_3_BILD = "img/wasserstoff.png"
 
 VERSUCH_1_SEITE = "pages/solar_main.py" 
-VERSUCH_2_SEITE = "Wind/wind_main.py"
-VERSUCH_3_SEITE = "H2/h2_main.py"
+VERSUCH_2_SEITE = "pages/wind_main.py"
+VERSUCH_3_SEITE = "pages/h2_main.py"
 
 APP_TITEL = "EnerTec Workshop"
 
