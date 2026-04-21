@@ -23,9 +23,7 @@ APP_TITEL = "EnerTec Workshop"
 EINLEITUNG = """
 Herzlich Willkommen in der spannenden Welt der erneuerbaren Energien bei EnerTec an der Universität des Saarlandes!
 
-Auf dieser Seite könnt ihr zwischen drei spannenden Experimenten wählen. Die Betreuer vor Ort unterstützen euch gerne bei der Auswahl und Durchführung.
-Klickt einfach auf eine Kachel, um direkt zur passenden Experimentierseite zu gelangen.
-Dort findet ihr Anleitungen, Zusatzinformationen und Hilfen zum Aufbau.
+Auf dieser Seite könnt ihr zwischen drei spannenden Experimenten wählen. Die Betreuer vor Ort unterstützen euch gerne bei der Auswahl und Durchführung. Klickt einfach auf eine Kachel, um direkt zur passenden Experimentierseite zu gelangen. Dort findet ihr Anleitungen, Zusatzinformationen und Hilfen zum Aufbau.
 
 Bei Fragen meldet euch gerne bei den Betreuern. Ansonsten: Jetzt seid ihr dran! Viel Spaß beim Experimentieren!
 """
