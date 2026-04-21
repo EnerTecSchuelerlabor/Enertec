@@ -56,11 +56,11 @@ IMPRESSUM_HTML = """
     EnerTec - Lehrstuhl für Automatisierungs- und Energiesysteme<br>
     Universität des Saarlandes<br>Campus<br>66123 Saarbrücken<br><br>
     <b>Website am Lehrstuhl</b><br>
-    https://www.uni-saarland.de/lehrstuhl/frey/enertec.html<br><br>
+    <a href="https://www.uni-saarland.de/lehrstuhl/frey/enertec.html" target="_blank">
+    https://www.uni-saarland.de/lehrstuhl/frey/enertec.html
+    </a><br><br>
     <b>Kontakt</b><br>
-    enertec@uni-saarland.de<br><br>
-    <b>Datenschutz</b><br>
-    Hinweise zum Datenschutz und zur Nutzung dieser Seite erhaltet ihr bei den Betreuenden vor Ort.
+    <a href="mailto:enertec@uni-saarland.de">enertec@uni-saarland.de</a><br><br>
 </div>
 """
 
