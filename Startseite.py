@@ -1,8 +1,6 @@
 
 import streamlit as st
 
-from Solar import solar_main
-
 st.set_page_config(
     page_title="EnerTec Workshop",
     layout="wide"
