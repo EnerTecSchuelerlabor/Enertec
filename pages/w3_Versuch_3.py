@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 from navigation import hide_default_sidebar_nav, wind_sidebar
 
 st.set_page_config(page_title="Wind", layout="wide")
@@ -35,7 +36,7 @@ st.write('---')
 
 st.subheader('Aufbau')
 
-st.image('page_3_pic_1.png')
+st.image('Wind/page_3_pic_1.png')
 
 st.write('---')
 
@@ -45,7 +46,7 @@ st.subheader('Aufgabe')
 
 st.write('Baut das Experiment entsprechend der Abbildung oben nach. Achtet auf die richtige Konfiguration damit ihr die Ergebnisse vergleichen könnt! Beginnt damit eine Tabelle auf einem Blatt anzulegen, die wie folgt aussieht: ')
 
-st.image('page_3_pic_2.png')
+st.image('Wind/page_3_pic_2.png')
 
 st.write('Ihr müsst hier die Werte für die Windgeschwindigkeit, für die Spannung U und die Stromstärke I bestimmen. Die Leistung P wird für euch berechnet.')
 
@@ -183,10 +184,10 @@ if st.session_state['Erklärung (Versuch 3)']:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image('page_3_pic_3.png')
+        st.image('Wind/page_3_pic_3.png')
         
     with col2:
-        st.image('page_3_pic_4.png')
+        st.image('Wind/page_3_pic_4.png')
     
     st.write('Wenn man sich die Kurve betrachtet kann man auch einen Zusammenhang zwischen Windgeschwindigkeit und Ausgangsleistung bestimmen. Die Kurve ist nicht linear, scheint aber mit einer bestimmten Potenz zu steigen. Man kann sich den Zusammenhang schön herleiten, wenn man sich die Werte für 5 m/s und 10 m/s betrachtet: bei 5 m/s  erreicht die Anlage circa 5 mW und für 10 m/s erreicht die Anlage schon 40 mW. Das heißt, wenn sich die Windgeschwindigkeit verdoppelt, verachtfacht sich die Ausgangsleistung. Dies bedeutet, dass die Ausgangsleistung mit der dritten Potenz der Windgeschwindigkeit wächst (als Erinnerung für den Zusammenhang: 2^3 ergibt 8, dass heißt P = v^3. In diesem Fall entspricht v der Windgeschwindigkeit und P der Ausgangsleistung).')
     
