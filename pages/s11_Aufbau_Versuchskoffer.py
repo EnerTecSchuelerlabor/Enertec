@@ -71,6 +71,6 @@ with col1:
     st.image('Solar/page_11_pic_5.png')
     
 with col2:
-    st.image('page_11_pic_6.png')
+    st.image('Solar/page_11_pic_6.png')
     
     
