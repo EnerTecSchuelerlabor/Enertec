@@ -39,7 +39,7 @@ st.write('---')
 
 st.subheader('Aufbau:')
 
-st.image('page_5_pic_1.png')
+st.image('Solar/page_5_pic_1.png')
 
 st.write('---')
 
@@ -49,11 +49,11 @@ st.subheader('Aufgabe:')
 
 st.write('Das Bild unten zeigt euch nochmal als Skizze welchen Winkel wir bestimmen, nämlich den Winkel zwischen einfallendem Licht und der Oberfläche der Solarzelle. In der Erklärung besprechen wir, inwiefern dieser Winkel in der Realität verwendet wird.')
 
-st.image('page_5_pic_2.png')
+st.image('Solar/page_5_pic_2.png')
 
 st.write('Baut das Experiment entsprechend der Abbildung oben unter "Aufbau" nach. Beginnt damit eine Tabelle auf einem Blatt anzulegen die wie folgt aussieht:')
 
-st.image('page_5_pic_3.png')
+st.image('Solar/page_5_pic_3.png')
 
 st.write('Diese Tabelle dient euch als Hilfe beim ausfüllen bzw. während des Experiments. Beginnt bei einem Winkel von 90°, notierten den Kurzschlussstrom und fährt so für die übrigen Winkel fort.')
 
@@ -151,23 +151,23 @@ if st.session_state['Erklärung (Versuch 5)']:
     
     st.write('Wie ihr in dem Bild unten sehen könnt ist der Verlauf des Kurzschlussstroms eine Gerade, die zu größeren Winkeln hin steigt. Theoretisch ist der Verlauf ähnlich zu einem Sinus, was ihr hier aber aufgrund der wenigen Messwerte nicht sehen könnt. Die Erklärung für dieses Verhalten ist analog zur Erklärung aus Versuch 2 mit dem Tagesgang. Deswegen doppeln sich einige Punkte im folgenden, wenn ihr Versuch 2 schon durchgeführt habt.')
     
-    st.image('page_5_pic_6.png')
+    st.image('Solar/page_5_pic_6.png')
     
     st.write('')
     
-    st.image('page_5_pic_7.png')
+    st.image('Solar/page_5_pic_7.png')
 
     st.write('Jetzt ist die Frage warum sich der Kurzschlussstrom so verhält wie er es tut. Dazu könnt ihr auch unter "Erklärung Solarenergie" im Abschnitt "Verbreitung" die Erklärung ansehen: ähnlich zur Verteilung der Strahlung auf der Erde, die sich aufgrund der Wölbung vom Äquator zu den Polen hin verringert, wird auch hier euer Kurzschlusstrom geringer, weil aufgrund des Winkels der Lampe zur Solarzelle immer weniger Licht (also eine Menge) auf die gleiche Fläche der Solarzelle trifft. Diese Größe, also allgemein gesprochen eine Menge pro Fläche zum Beispiel, bezeichnet man als Intensität. Je geringer die Intensität, desto geringer die Energie des Lichts. Sonnenlicht an einem Sommertag hat eine sehr hohe Intensität oder Energie, wohingegen zum Beispiel euer Blitz am Smartphone eine wesentlich geringere Energie hat. Anschaulich kann man die Intensität der Lampe in unserem Versuch auch fühlen: die Umgebung der Lampe wird aufgeheizt und das Licht, dass zum Beispiel auf eure Hand trifft, fühlt sich warm an, da die Energie des Lichts zum Teil von eurer Hand absorbiert wird.')
 
     st.write('Wenn ihr euch jetzt das Diagramm für den Winkel anschaut seht ihr, dass die beste Ausrichtung ein Winkel von 90° zur Sonne darstellt. Allerdings fällt einem auf, wenn man die Abbildung unten betrachtet oder sich das Video in "Versuch 2" anschaut, dass die Höhe der Sonne über dem Horizont nie die gleiche ist: wir starten mit einem geringen Winkel, der bis zur Mitagszeit zu seinem Maximum ansteigt und danach wieder abfällt. In der Realität gibt es zwei Varianten diesem Problem zu begegnen: entweder legt man einen Winkel fest (meistens der Winkel des Sonnenhöchststands) oder man installiert eine sogenannte Nachführung, die die Solarzelle immer optimal zur Sonne orientiert.')
     
-    st.image('page_5_pic_4.png', width=800)
+    st.image('Solar/page_5_pic_4.png', width=800)
     
     st.write('Quelle: https://www.enargus.de/pub/bscw.cgi/d11786-2/*/*/Sonnenstandsdiagramm?search=Sonnenstandsdiagramm&op=Wiki.getwiki')
     
     st.write('Das Diagramm oben sollte euch nicht verunsichern: die drei blauen Kurven geben euch jeweils die Verläufe für drei Tage im Jahr an, hier die beiden Extremwerte mit dem Minimum am 21.12 und dem Maximum am 21.06 und der mittlere Wert am 21.03. Die schwarzen Linien verbinden die blauen Kurven zu einer bestimmten Uhrzeit. So bedeutet zum Beispiel der Schnittpunkt im roten Kreis den Winkel am 21.03 um 9 Uhr morgens mit einem Wert von ungefähr 40°. Wenn ihr wollt könnt ihr einmal die Winkel für den grünen und den lila Kreis versuchen abzulesen. Nachdem ihr dieses Diagramm verstanden habt, fällt euch vielleicht das Problem auf, welches aus einem festen Winkel folgt: ein fester Winkel passt jeweils nur für einen Tag im Jahr. Wenn ihr den optimalen Winkel für den Sommer einstellt wird der Ertrag im Rest des Jahres geringer sein und umgekehrt genauso. Um dieses Problem zu umgehen und den Ertrag zu steigern gibt es eine sogenannte Nachführung die ihr in der Abbildung unten seht.')
     
-    st.image('page_5_pic_5.png')
+    st.image('Solar/page_5_pic_5.png')
     
     st.write('Quelle: https://www.haustechnikdialog.de/SHKwissen/Showimage.aspx?ID=5465')
     
