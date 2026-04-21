@@ -33,7 +33,7 @@ st.subheader('Aufbau')
 
 st.write('Aufbau Messung Ausgangsleistung')
 
-st.image('page_1_pic_1.png')
+st.image('Wind/page_1_pic_1.png')
     
 st.write('---')
 
@@ -49,7 +49,7 @@ st.write('Baut das Experiment entsprechend der Abbildung oben nach. Hier verwend
 
 st.write('Tabelle Messung Ausgangsleistung')
 
-st.image('page_1_pic_2.png')
+st.image('Wind/page_1_pic_2.png')
 
 st.write('Wenn ihr das Experiment aufgebaut habt und die Multimeter eingestellt habt, könnt ihr nun mit der Messung beginnen. Beachtet dabei, die Last korrekt einzustellen! Dabei reicht für euch zu wissen, dass ein Wert in der Spalte "R" dem Wert auf dem Drehregler geteilt durch zehn entspricht. Also gehört zu einem "R" Wert von 20 die Stellung 2, zu einem "R" Wert von 60 die Stellung 6, etc. Wenn ihr wissen wollt, was es mit dem Wert für "R" auf sich hat, fragt gerne einen Betreuer. Für das Experiment hat das Verständnis keinen Einfluss.')
 
@@ -92,7 +92,7 @@ st.subheader('Aufbau')
 
 st.write('Aufbau Messung Ausgangsleistung')
 
-st.image('page_1_pic_3.png')
+st.image('Wind/page_1_pic_3.png')
     
 st.write('---')
 
@@ -106,7 +106,7 @@ st.write('Baut das Experiment entsprechend der Abbildung oben nach. Hier verwend
 
 st.write('Tabelle Messung Drehzahl')
 
-st.image('page_1_pic_4.png')
+st.image('Wind/page_1_pic_4.png')
 
 st.write('Wenn ihr das Experiment aufgebaut habt und die Multimeter eingestellt habt, könnt ihr nun mit der Messung beginnen. Beachtet dabei, die Last korrekt einzustellen! Dabei reicht für euch zu wissen, dass ein Wert in der Spalte "R" dem Wert auf dem Drehregler geteilt durch zehn entspricht. Also gehört zu einem "R" Wert von 20 die Stellung 2, zu einem "R" Wert von 60 die Stellung 6, etc. Wenn ihr wissen wollt, was es mit dem Wert für "R" auf sich hat, fragt gerne einen Betreuer. Für das Experiment hat das Verständnis keinen Einfluss. Misst nun die Spannung U in V für die verschiedenen "R" Werte.')
 
@@ -273,10 +273,10 @@ if st.session_state['Erklärung (Versuch 1)']:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.image('page_1_pic_6.png')
+        st.image('Wind/page_1_pic_6.png')
         
     with col2:
-        st.image('page_1_pic_7.png')
+        st.image('Wind/page_1_pic_7.png')
     
     st.write('Nun noch zur Erklärung der Zusatzfrage: es gibt mehrere Gründe warum man bei realen Anlagen nur drei Flügel verwendet, unter anderem liegt dies an den Kosten und geringeren mechanischen Belastungen der Bauteile.')
     
