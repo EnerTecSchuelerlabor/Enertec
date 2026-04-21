@@ -1,6 +1,15 @@
+# Header #
 
 import streamlit as st
 import matplotlib.pyplot as plt
+
+import streamlit as st
+from navigation import hide_default_sidebar_nav, solar_sidebar
+
+st.set_page_config(page_title="Solar", layout="wide")
+
+hide_default_sidebar_nav()
+solar_sidebar()
 
 st.set_page_config(page_title = "EnerTec Solar Workshop", layout = "wide")
 
