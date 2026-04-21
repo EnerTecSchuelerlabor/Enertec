@@ -93,7 +93,7 @@ def wind_sidebar():
         if st.button("Aufbau Versuchskoffer", use_container_width=True):
             st.switch_page("pages/w11_Aufbau_Versuchskoffer.py")
 
-        if st.button("Erklärung Solarenergie", use_container_width=True):
+        if st.button("Erklärung Windenergie", use_container_width=True):
             st.switch_page("pages/w12_Erklärung_Windenergie.py")
 
         if st.button("Erklärung Wasser Modell", use_container_width=True):
@@ -135,7 +135,7 @@ def h2_sidebar():
         if st.button("Aufbau Versuchskoffer", use_container_width=True):
             st.switch_page("pages/h11_Aufbau_Versuchskoffer.py")
 
-        if st.button("Erklärung Solarenergie", use_container_width=True):
+        if st.button("Erklärung Wasserstoff", use_container_width=True):
             st.switch_page("pages/h12_Erklärung_Windenergie.py")
 
         if st.button("Erklärung Wasser Modell", use_container_width=True):
