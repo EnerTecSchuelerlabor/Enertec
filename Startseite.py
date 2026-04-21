@@ -21,13 +21,13 @@ VERSUCH_3_SEITE = "H2/h2_main.py"
 APP_TITEL = "EnerTec Workshop"
 
 EINLEITUNG = """
-Herzlich Willkommen in der spannenden Welt der erneuerbaren Energien bei EnerTec!
+Herzlich Willkommen in der spannenden Welt der erneuerbaren Energien bei EnerTec an der Universität des Saarlandes!
 
 Auf dieser Seite könnt ihr zwischen drei spannenden Experimenten wählen. Die Betreuer vor Ort unterstützen euch gerne bei der Auswahl und Durchführung.
 Klickt einfach auf eine Kachel, um direkt zur passenden Experimentierseite zu gelangen.
 Dort findet ihr Anleitungen, Zusatzinformationen und Hilfen zum Aufbau.
 
-Bei Fragen meldet euch gerne bei den Betreuern. Ansonsten: jetzt seid ihr dran, viel Spaß beim Experimentieren!
+Bei Fragen meldet euch gerne bei den Betreuern. Ansonsten: Jetzt seid ihr dran! Viel Spaß beim Experimentieren!
 """
 
 VERSUCH_1_TITEL = "Experiment mit Solarenergie"
@@ -55,13 +55,10 @@ IMPRESSUM_HTML = """
     <b>Impressum</b><br>
     EnerTec - Lehrstuhl für Automatisierungs- und Energiesysteme<br>
     Universität des Saarlandes<br>Campus<br>66123 Saarbrücken<br><br>
-
     <b>Website am Lehrstuhl</b><br>
     https://www.uni-saarland.de/lehrstuhl/frey/enertec.html<br><br>
-
     <b>Kontakt</b><br>
     enertec@uni-saarland.de<br><br>
-
     <b>Datenschutz</b><br>
     Hinweise zum Datenschutz und zur Nutzung dieser Seite erhaltet ihr bei den Betreuenden vor Ort.
 </div>
