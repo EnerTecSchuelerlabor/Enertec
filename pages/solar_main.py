@@ -1,20 +1,27 @@
-
 import streamlit as st
+from navigation import hide_default_sidebar_nav, solar_sidebar
 
-st.set_page_config(page_title = "EnerTec Solar Workshop", layout = "wide")
+st.set_page_config(page_title="Solar", layout="wide")
 
-st.logo('Logo_EnerTec_ohne_Hintergrund.png')
+hide_default_sidebar_nav()
+solar_sidebar()
 
-col1, col2, col3 = st.columns(3)
+st.title("Solarenergieexperiment")
 
-with col1:
-    st.image('Logo_Stiftung_ohne_Hintergrund.png', width=250)
+st.write("Hier ist die Solar-Hauptseite.")
+
+#st.logo('Logo_EnerTec_ohne_Hintergrund.png')
+
+#col1, col2, col3 = st.columns(3)
+
+#with col1:
+#    st.image('Logo_Stiftung_ohne_Hintergrund.png', width=250)
     
-with col2:
-    st.image('Logo_EnerTec_ohne_Hintergrund.png', width=250)
+#with col2:
+#    st.image('Logo_EnerTec_ohne_Hintergrund.png', width=250)
     
-with col3:
-    st.image('Logo_AES_ohne_Hintergrund.png', width=250)
+#with col3:
+#    st.image('Logo_AES_ohne_Hintergrund.png', width=250)
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
