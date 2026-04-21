@@ -1,5 +1,5 @@
 import streamlit as st
-from navigation import hide_default_sidebar_nav, solar_sidebar
+from navigation import hide_default_sidebar_nav, h2_sidebar
 
 st.set_page_config(page_title="Wind", layout="wide")
 
