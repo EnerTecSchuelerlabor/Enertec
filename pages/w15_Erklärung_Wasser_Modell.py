@@ -35,7 +35,7 @@ st.write('Ähnlich dazu entspricht die Stromstärke dem Volumen bzw. der Menge d
 
 st.write('Die letzte wichtige Größe stellt der Widerstand dar, der wie der Name schon vermuten lässt, einen Widerstand für das Wasser bzw. die Elektronen darstellt. In unserem Fall sprechen wir häufig von einem elektrischen Verbraucher, wie z.B. einer Glühbirne oder einem Motor, da solch ein Widerstand dem Wasser bzw. dem Strom ein wenig an Kraft nimmt und ein Hindernis darstellt.')
 
-st.image('page_15_pic_1.png')
+st.image('Wind/page_15_pic_1.png')
 
 st.write('Quelle: https://www.elektrotechnik-einfach.de/spannung/')
 
@@ -43,7 +43,7 @@ st.write('---')
 
 st.write('Das Bild unten beschreibt den Zusammenhang zwischen dem elektrischen Strom und Wasser nochmals anschaulich. Dabei sieht man hier, wie eine Pumpe und ein Wasserrad jeweils eine Spannungsquelle bzw. einen Widerstand (hier eine Glühbirne) darstellen. Die Wasserbecken an sich können als eine Art Energiespeicher z.B. eine Batterie angesehen werden.')
 
-st.image('page_15_pic_2.png')
+st.image('Wind/page_15_pic_2.png')
 
 st.write('Quelle: https://physikkommunizieren.de/themenfelder/7_strom/d_modelle/')
 
