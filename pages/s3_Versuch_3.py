@@ -42,7 +42,7 @@ st.write('---')
 
 st.subheader('Aufbau:')
 
-st.image('page_3_pic_1.png')
+st.image('Solar/page_3_pic_1.png')
 
 st.write('---')
 
@@ -52,7 +52,7 @@ st.subheader('Aufgabe:')
 
 st.write('Baut das Experiment entsprechend der Abbildung oben nach. Beginnt damit eine Tabelle auf einem Blatt anzulegen die wie folgt aussieht:')
 
-st.image('page_3_pic_2.png')
+st.image('Solar/page_3_pic_2.png')
 
 st.write('Diese Tabelle dient euch als Hilfe beim ausfüllen bzw. während des Experiments. Beginnt zunächst nur mit einer Solarzelle und bestimmt Strom und Spannung. Anschließend schaltet zwei Solarzellen in Reihe und fährt so fort. Für einen Hinweis was eine Reihenschaltung ist schaut bitte in die Seite "Erklärung Reihenschaltung" hinein.')
 
@@ -168,7 +168,7 @@ if st.session_state['Erklärung (Versuch 3)']:
     
     st.write('Ihr fragt euch sicherlich warum man eine Reihenschaltung von Solarzellen in der Realität benötigt. Dies hat mehrere Gründe, aber der wichtigste ist das eine höhere Spannung einfacher und mit weniger Verlusten in eine andere Spannung umgewandelt werden kann. Da eine Solarzelle eine Gleichspannung (DC) produziert und unser Stromnetz mit Wechselspannung (AC) funktioniert, muss ein Wechselrichter die Spannung entsprechend anpassen. Dazu benötigt er unter anderem einen gewissen Mindestwert an Spannung. So kann es sein, dass an einem bewölkten Tag oder bei weniger Sonneneinstrahlung in Frühling und Herbst die Spannung einer Solarzelle nicht ausreicht und dieser Wert nur durch die Reihenschaltung erreicht werden kann.')
 
-    st.image('page_3_pic_3.png')
+    st.image('Solar/page_3_pic_3.png')
     
     st.write('Quelle: https://publikationen.dguv.de/widgets/pdf/download/article/2896')
     
