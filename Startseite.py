@@ -7,14 +7,14 @@ st.set_page_config(
 )
 
 ENERTEC_LOGO = "img/enertec_logo.png"
-STIFTUNG_LOGO = "img/stiftung_logo.png"
-LEHRSTUHL_LOGO = "img/lehrstuhl_logo.png"
+STIFTUNG_LOGO = "img/enfo_logo.png"
+LEHRSTUHL_LOGO = "img/aes_logo.png"
 
-VERSUCH_1_BILD = "img/versuch1.png"
-VERSUCH_2_BILD = "img/versuch2.png"
-VERSUCH_3_BILD = "img/versuch3.png"
+VERSUCH_1_BILD = "img/solar.png"
+VERSUCH_2_BILD = "img/wind.png"
+VERSUCH_3_BILD = "img/wasserstoff.png"
 
-VERSUCH_1_SEITE = "Solar/solar_main.py"
+VERSUCH_1_SEITE = "Solar/solar_main.py" 
 VERSUCH_2_SEITE = "Wind/wind_main.py"
 VERSUCH_3_SEITE = "H2/h2_main.py"
 
