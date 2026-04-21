@@ -31,7 +31,7 @@ st.title('Erklärung Reihenschaltung')
 
 st.write('Auf dieser Seite wird die Reihenschaltung erklärt. Das Bild unten stellt Reihen- und Parallelschaltung gegenüber. Wie der Name vermuten lässt, werden elektrische Verbraucher (z.B. Widerstände, Glühbirnen, etc.) oder Quellen (z.B. Solarzellen, Spannungsquellen, etc.) in Reihe also nacheinander (auch seriell genannt) geschaltet. Dies bedeutet, dass der Strom durch alle Bauteile fließt.')
 
-st.image('page_13_pic_1.png')
+st.image('Solar/page_13_pic_1.png')
 
 st.write('Quelle: https://kfz-schule.com/reihenschaltung-parallelschaltung/')
 
@@ -43,7 +43,7 @@ st.write('---')
 
 st.subheader('Reihenschaltung (1-fach)')
 
-st.image('Reihenschaltung_1.png')
+st.image('Solar/Reihenschaltung_1.png')
 
 st.write('---')
 
@@ -51,7 +51,7 @@ st.write('---')
 
 st.subheader('Reihenschaltung (2-fach)')
 
-st.image('Reihenschaltung_2.png')
+st.image('Solar/Reihenschaltung_2.png')
 
 st.write('---')
 
@@ -59,7 +59,7 @@ st.write('---')
 
 st.subheader('Reihenschaltung (3-fach)')
 
-st.image('Reihenschaltung_3.png')
+st.image('Solar/Reihenschaltung_3.png')
 
 st.write('---')
 
@@ -67,7 +67,7 @@ st.write('---')
 
 st.subheader('Reihenschaltung (4-fach)')
 
-st.image('Reihenschaltung_4.png')
+st.image('Solar/Reihenschaltung_4.png')
 
 st.write('---')
 
