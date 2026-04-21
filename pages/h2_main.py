@@ -6,28 +6,22 @@ st.set_page_config(page_title="Wind", layout="wide")
 hide_default_sidebar_nav()
 h2_sidebar()
 
-st.title("Wasserstoffexperiment")
+st.logo('Logo_EnerTec_ohne_Hintergrund.png')
 
-st.write("Hier ist die Wasserstoff-Hauptseite.")
+col1, col2, col3 = st.columns(3)
 
-#st.logo('Logo_EnerTec_ohne_Hintergrund.png')
-
-#col1, col2, col3 = st.columns(3)
-
-#with col1:
-#    st.image('Logo_Stiftung_ohne_Hintergrund.png', width=250)
+with col1:
+    st.image('Logo_Stiftung_ohne_Hintergrund.png', width=250)
     
-#with col2:
-#    st.image('Logo_EnerTec_ohne_Hintergrund.png', width=250)
+with col2:
+    st.image('Logo_EnerTec_ohne_Hintergrund.png', width=250)
     
-#with col3:
-#    st.image('Logo_AES_ohne_Hintergrund.png', width=250)
-    
-# ------------------------------------------------------------------------------------------------------------------------ #
+with col3:
+    st.image('Logo_AES_ohne_Hintergrund.png', width=250)
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-st.title("Startseite")
+st.title("Übersicht - Wasserstoffexperiment")
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
