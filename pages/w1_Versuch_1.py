@@ -1,4 +1,6 @@
+
 import streamlit as st
+import matplotlib.pyplot as plt
 import pandas as pd
 from navigation import hide_default_sidebar_nav, wind_sidebar
 
