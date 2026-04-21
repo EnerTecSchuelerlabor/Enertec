@@ -46,11 +46,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write('Aufbau Spannungsmessung')
-    st.image('page_1_pic_1.png')
+    st.image('Solar/page_1_pic_1.png')
     
 with col2:
     st.write('Aufbau Strommessung')
-    st.image('page_1_pic_2.png')
+    st.image('Solar/page_1_pic_2.png')
 
 st.write('---')
 
@@ -64,11 +64,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write('Tabelle Spannungsmessung')
-    st.image('page_1_pic_3.png')
+    st.image('Solar/page_1_pic_3.png')
 
 with col2:
     st.write('Tabelle Strommessung')
-    st.image('page_1_pic_4.png')
+    st.image('Solar/page_1_pic_4.png')
     
 st.write('Diese Tabellen dienen euch als Hilfe beim ausfüllen bzw. während des Experiments. Beginnt mit einer bestrahlten Fläche von "0" (entspricht dem größten Blech) und fahrt so für die Werte "1/2" (mittleres Blech), "3/4" (kleines Blech) und "1" (kein Blech) fort und notiert jeweils die Leerlaufspannung in mV und den Kurzschlusstrom in mA. Dabei könnt ihr zuerst alle Werte für die Leerlaufspannung bestimmen und danach die Werte für den Kurzschlussstrom oder während dem Experiment beide Größen nacheinander für eine Abschattung bestimmen.')
 
@@ -188,10 +188,10 @@ if st.session_state['Erklärung (Versuch 1)']:
         st.write('')
         
     with col2:
-        st.image('page_1_pic_6.png')
+        st.image('Solar/page_1_pic_6.png')
         
     with col3:
-        st.image('page_1_pic_5.png')
+        st.image('Solar/page_1_pic_5.png')
         
     with col4:
         st.write('')
@@ -206,7 +206,7 @@ if st.session_state['Erklärung (Versuch 1)']:
     
     st.write('In der Realität kann man das Problem zum Beispiel mit sogenannten Bypass Dioden lösen: diese ermöglichen einzelne Solarzellen aus der Reihenschaltung herauszunehmen, indem der Strom um die defekte oder verschattete Solarzelle herum geführt wird. Es gibt auch andere Ansätze, wie zum Beispiel in der Abbildung unten auf der Ebene eines einzelnen Moduls, in dem der Strom durch die einzelnen Zellen nicht in einer störanfälligen Mäanderform geleitet wird sondern als eine Art Matrix oder Gitter: so können einzelne defekte Bereiche umgangen werden.')
     
-    st.image('page_1_pic_7.png')
+    st.image('Solar/page_1_pic_7.png')
     
     st.write('Quelle: https://www.energie-experten.org/erneuerbare-energien/photovoltaik/planung/verschattung')
     
