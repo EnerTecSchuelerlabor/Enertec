@@ -115,7 +115,7 @@ def h2_sidebar():
 
         st.divider()
 
-        if st.button("Wind Übersicht", use_container_width=True):
+        if st.button("Wasserstoff Übersicht", use_container_width=True):
             st.switch_page("pages/h2_main.py")
 
         if st.button("Versuch 1", use_container_width=True):
