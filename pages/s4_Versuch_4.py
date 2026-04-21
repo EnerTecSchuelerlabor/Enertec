@@ -42,7 +42,7 @@ st.write('---')
 
 st.subheader('Aufbau:')
 
-st.image('page_3_pic_1.png')
+st.image('Solar/page_3_pic_1.png')
 
 st.write('---')
 
@@ -52,7 +52,7 @@ st.subheader('Aufgabe:')
 
 st.write('Baut das Experiment entsprechend der Abbildung oben nach. Beginnt damit eine Tabelle auf einem Blatt anzulegen die wie folgt aussieht:')
 
-st.image('page_3_pic_2.png')
+st.image('Solar/page_3_pic_2.png')
 
 st.write('Diese Tabelle dient euch als Hilfe beim ausfüllen bzw. während des Experiments. Beginnt zunächst nur mit einer Solarzelle und bestimmt Strom und Spannung. Anschließend schaltet zwei Solarzellen parallel und fährt so fort. Für einen Hinweis was eine Parallelschaltung ist schaut bitte in die Seite "Erklärung Parallelschaltung" hinein.')
 
@@ -168,7 +168,7 @@ if st.session_state['Erklärung (Versuch 4)']:
     
     st.write('Eine Parallelschaltung von Solarzellen kann sinnvoll sein, um die Leistung oder die Energie, die eine Anlage liefern kann zu erhöhen, wenn man die Spannung nicht verändern möchte. Wie sich eine Reihenschaltung verhält könnt ihr in Versuch 3 sehen, wobei die wichtigste Erkenntnis aus Versuch 3 ist, dass man mittels einer Reihenschaltung eine gewünschte Spannung einstellen kann. Deswegen wird eine Parallelschaltung verwendet um die Leistung einer Anlage zu erhöhen.')
     
-    st.image('page_4_pic_3.png')
+    st.image('Solar/page_4_pic_3.png')
     
     st.write('Quelle: https://publikationen.dguv.de/widgets/pdf/download/article/2896')
     
