@@ -4,18 +4,18 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title = "EnerTec Solar Workshop", layout = "wide")
 
-st.logo('../Solar/Logo_EnerTec_ohne_Hintergrund.png')
+st.logo('Solar/Logo_EnerTec_ohne_Hintergrund.png')
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image('../Solar/Logo_Stiftung_ohne_Hintergrund.png', width=250)
+    st.image('Solar/Logo_Stiftung_ohne_Hintergrund.png', width=250)
     
 with col2:
-    st.image('../Solar/Logo_EnerTec_ohne_Hintergrund.png', width=250)
+    st.image('Solar/Logo_EnerTec_ohne_Hintergrund.png', width=250)
     
 with col3:
-    st.image('../Solar/Logo_AES_ohne_Hintergrund.png', width=250)
+    st.image('Solar/Logo_AES_ohne_Hintergrund.png', width=250)
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
