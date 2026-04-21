@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 from navigation import hide_default_sidebar_nav, wind_sidebar
 
 st.set_page_config(page_title="Wind", layout="wide")
@@ -35,7 +36,7 @@ st.write('---')
 
 st.subheader('Aufbau')
 
-st.image('page_2_pic_1.png')
+st.image('Wind/page_2_pic_1.png')
 
 st.write('---')
 
@@ -45,7 +46,7 @@ st.subheader('Aufgabe')
 
 st.write('Baut das Experiment entsprechend der Abbildung oben nach. Wir verwenden hier drei gerade Flügel für das Experiment. Achtet auf die richtige Konfiguration damit ihr die Ergebnisse vergleichen könnt! Beginnt damit eine Tabelle auf einem Blatt anzulegen, die wie folgt aussieht: ')
 
-st.image('page_2_pic_2.png')
+st.image('Wind/page_2_pic_2.png')
 
 st.write('Dabei ist für euch die Tabelle für 10 m/s bereits ausgefüllt. Orientiert euch gerne daran. Ihr müsst hier nur die Werte für die Spannung U und die Stromstärke I bestimmen. Die Leistung P wird für euch berechnet')
 
@@ -169,14 +170,14 @@ if st.session_state['Erklärung (Versuch 2)']:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image('page_2_pic_3.png')
+        st.image('Wind/page_2_pic_3.png')
         
     with col2:
-        st.image('page_2_pic_5.png')
+        st.image('Wind/page_2_pic_5.png')
     
     st.write('Auch sollte der Zusammenhang zwischen Anstellwinkel und Windgeschwindigkeit sichtbar sein: für höhere Windgeschwindigkeiten wird der Anstellwinkel größer. Daraus folgt auch, dass es keinen Sinn macht, eine Windkraftanlage mit einem festen Anstellwinkel zu betreiben, da die Windgeschwindigkeit über das Jahr und sogar über den tag betrachtet nie gleich ist und eine Windkraftanlage so nicht optimal arbeiten kann. In der Realität löst man das Problem, indem man eine sogenannte Rotorblattverstellung oder Pitchsystem verwendet. Diese könnt ihr im Bild unten sehen.')
     
-    st.image('page_2_pic_4.png')
+    st.image('Wind/page_2_pic_4.png')
     
     st.write('Quelle: https://www.windkraft-journal.de/2016/09/26/moogs-neues-pitchsystem-steigert-die-zuverlaessigkeit-in-windenergieanlagen-gegenueber-herkoemmlichen-systemen-um-das-dreifache/92589')
 
