@@ -39,7 +39,7 @@ st.write('---')
 
 st.subheader('Aufbau:')
 
-st.image('page_2_pic_1.png')
+st.image('Solar/page_2_pic_1.png')
 
 st.write('---')
 
@@ -64,7 +64,7 @@ st.write('Wie man in dem Video schön sieht, ändert sich im Tagesverlauf auch d
 
 st.write('Im folgenden seht ihr eine Tabellenvorlage. Legt diese auf einem Blatt an und füllt sie während dem Experiment aus. Dabei bezeichnen die Akürzungen die Himmelsrichtungen zwischen den vier Himmelsrichtungen Norden, Süden, Osten, Westen. Zum Beisppiel bedeutet "OSO" Ost-Süd-Ost, also die Richtung zwischen Ost und Südost. Die Richtung Südost ergibt sich dabei ähnlich als Richtung zwischen Osten und Süden. Ein Blick auf die Skala auf der Rundung sollte Klarheit verschaffen, wie sich die verschiedenen Bezeichnungen zusammensetzen. Diese werden in genau dieser Weise auch beim Kompass verwendet:')
 
-st.image('page_2_pic_2.png')
+st.image('Solar/page_2_pic_2.png')
 
 st.write('Beginnt zunächst bei einem Extrem z.B. Ost und geht so jede Himmelsrichtung bis West durch.')
 
@@ -165,17 +165,17 @@ if st.session_state['Erklärung (Versuch 2)']:
     
     st.write('Wie ihr in dem Bild unten sehen könnt ist der Verlauf des Kurzschlussstroms eine Kurve mit dem Maximum in Richtung Süden. Zu Osten und Westen hin nimmt der Strom fast bis zu Null ab (Hinweis: ihr werdet nie einen Wert von 0mA messen können, da diffuse Strahlung der Lampe bzw. das Sonnenlicht und die Beleuchtung im Raum selbst auch von der Solarzelle absorbiert werden und somit einen Strom erzeugen.). Dieses Verhalten des Tagesganges kennt ihr sicher selbst, zum Beispiel aus dem Sommer, an dem es mittags extrem heiß wird und morgens und abends die Temperaturen spürbar niedriger sind. Das folgt unter anderem aus dem Tagesgang der Sonne.')
     
-    st.image('page_2_pic_5.png')
+    st.image('Solar/page_2_pic_5.png')
     
     st.write('')
     
-    st.image('page_2_pic_6.png')
+    st.image('Solar/page_2_pic_6.png')
 
     st.write('Jetzt ist die Frage warum sich der Kurzschlussstrom so verhält wie er es tut. Dazu könnt ihr auch unter "Erklärung Solarenergie" im Abschnitt "Verbreitung" die Erklärung ansehen: ähnlich zur Verteilung der Strahlung auf der Erde, die sich aufgrund der Wölbung vom Äquator zu den Polen hin verringert, wird auch hier euer Kurzschlusstrom geringer, weil aufgrund des Winkels der Lampe zur Solarzelle immer weniger Licht (also eine Menge) auf die gleiche Fläche der Solarzelle trifft. Diese Größe, also allgemein gesprochen eine Menge pro Fläche zum Beispiel, bezeichnet man als Intensität. Je geringer die Intensität, desto geringer die Energie des Lichts. Sonnenlicht an einem Sommertag hat eine sehr hohe Intensität oder Energie, wohingegen zum Beispiel euer Blitz am Smartphone eine wesentlich geringere Energie hat. Anschaulich kann man die Intensität der Lampe in unserem Versuch auch fühlen: die Umgebung der Lampe wird aufgeheizt und das Licht, dass zum Beispiel auf eure Hand trifft, fühlt sich warm an, da die Energie des Lichts zum Teil von eurer Hand absorbiert wird.')
 
     st.write('Wenn ihr euch jetzt das Diagramm für den Tagesgang anschaut, sollte euch klar werden, dass die beste Ausrichtung einer Anlage Richtung Süden sein wird (entsprechend mit einem Winkel zur Horizontalen, den wir hier nicht weiter betrachten). Dies ist sinnvoll, da die Sonne um die Mittagszeit herum die höchste Intensität hat und in diesem Zeitraum aus Richtung Süden scheint. Natürlich ist es auch möglich eine Anlage Richtung Osten, Westen oder in beide Richtungen auszurichten, allerdings verpasst man dann das Maximum der Sonneneinstarhlung im Süden und anderseits wird dadurch auch die Zeit geringer, in der die Anlage beschienen wird. Man überlege sich eine Anlage die Richtung Osten ausgerichtet ist: sie wird ihren maximalen Ertrag am Morgen erbringen und gegen Mittag, spätestens jedoch gegen Abend keinen oder nur minimalen Ertrag liefern, da die Anlage dann nicht mehr oder nur kaum von der Sonne beschienen wird.')
     
-    st.image('page_2_pic_3.png')
+    st.image('Solar/page_2_pic_3.png')
     
     st.write('Quelle: https://www.ibc-blog.de/2013/08/freiflachenanlagen-ost-west-ist-das-neue-suden/')
     
@@ -183,7 +183,7 @@ if st.session_state['Erklärung (Versuch 2)']:
     
     st.write('Anzumerken sei hier, dass die Anlage in Ost/West Richtung größer ist und deswegen andere Werte an Leistung erreicht, was sich mit dem nächsten Bild erklären lässt. Außerdem lässt sich eine Anlage in Ost/West Richtung nur auf Flachdächern von z.B. Fabriken oder einem freien Feld installieren. Bei einem normalen Hausdach in Ost/West Ausrichtung würde immer ein Teil der Anlage vom Dach selbst beschattet werden, sodass der Vorteil der Ausrichtung verschwindet. Zusätzlich sollte euch auffallen, dass das Maximum bei der Ost/West Ausrichtung trotzdem symmetrisch in der Mitte liegt. das liegt daran, dass hier beide Richtungen, also Ost und West betrachtet werden und sich somit die einezlnen Kurven addieren und in der Mittagszeit beide Solarzellen (also die in Ost und West Richtung) beschienen werden. Diese Aspekte lassen sich gut in der Grafik unten beobachten und verstehen.')
 
-    st.image('page_2_pic_4.png')
+    st.image('Solar/page_2_pic_4.png')
     
     st.write('Quelle: https://gruenes.haus/pv-anlage-ost-west-ausrichtung/')
     
