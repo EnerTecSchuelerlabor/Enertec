@@ -112,7 +112,7 @@ st.write('Wenn ihr das Experiment aufgebaut habt und die Multimeter eingestellt 
 
 st.write('Nachdem ihr nun die Spannung U bestimmt habt nutzt die Kennlinie unten um die Werte in eine Drehzahl in n/min umzurechnen. Dabei bezeichnet "n/min" Umdrehungen pro Minute. Ihr verwendet die Kennlinie wie folgt: nehmt einen Wert der Spannung und sucht diesen auf der x-Achse. Fährt nun gedanklich oder mit der Maus nach oben bis ihr die Kurve schneidet. Von dem Schnittpunkt fährt gedanklich oder mit der Maus nach links, bis ihr einen Punkt auf der y-Achse erreicht. Dieser Wert ist der dazugehörige Wert der Drehzahl zu einem vorgegebenen Wert der Spannung U.')
 
-st.image('page_1_pic_5.png', width=600)
+st.image('Wind/page_1_pic_5.png', width=600)
 
 st.write('---')
 
