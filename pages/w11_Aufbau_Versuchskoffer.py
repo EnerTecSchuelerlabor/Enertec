@@ -29,31 +29,31 @@ st.write('---')
 
 st.write('Auf dem ersten Bild seht ihr den geöffneten Koffer mit Schaumstoff im Deckel.')
 
-st.image('page_11_pic_1.png')
+st.image('Wind/page_11_pic_1.png')
 
 st.write('---')
 
 st.write('Im Deckel des Koffers ist die Grundplatte verstaut (siehe Bild unten). Nehmt diese aus dem Koffer und platziert sie auf dem Tisch. Richtet sie so aus, dass die rechteckige Aussparung nach links zeigt. So ist der spätere Aufbau einfacher.')
 
-st.image('page_11_pic_2.png')
+st.image('Wind/page_11_pic_2.png')
 
 st.write('---')
 
 st.write('Im nächsten Bild seht ihr einmal alle Komponenten des Koffers. Das Poster an der Wand enthält eine beschriftete Version.')
 
-st.image('page_11_pic_3.png')
+st.image('Wind/page_11_pic_3.png')
 
 st.write('---')
 
 st.write('Auf dem nächsten Bild seht ihr die Grundplatte mit markierten Bohrungen. Die rot markierte Aussparung dient der Aufnahme der Windmaschine, die blau markierten Führungen nehmen den Fuß des Windrads auf und die grün markierten Schlitze dienen der Befestigung der Schutzkappe.')
 
-st.image('page_11_pic_4.png')
+st.image('Wind/page_11_pic_4.png')
 
 st.write('---')
 
 st.write('Im folgenden Bild seht ihr die fertig aufgebaute Station. Dabei sind an dem Windrad noch keine Flügel montiert. Beachtet dabei, dass ihr die Schutzkappe verwendet und so ausrichtet, dass die Winkelskala nach vorne zeigt.')
 
-st.image('page_11_pic_5.png')
+st.image('Wind/page_11_pic_5.png')
 
 st.write('---')
 
@@ -65,10 +65,10 @@ with col1:
     st.write('')
 
 with col2:
-    st.image('page_11_pic_6.png')
+    st.image('Wind/page_11_pic_6.png')
     
 with col3:
-    st.image('page_11_pic_7.png')
+    st.image('Wind/page_11_pic_7.png')
     
 with col4:
     st.write('')
@@ -77,7 +77,7 @@ st.write('---')
 
 st.write('Im folgenden seht ihr den kompletten Aufbau mit Flügeln. Je nach Experiment benötigt ihr entsprechend noch weitere Bauteile aus dem Koffer.')
 
-st.image('page_11_pic_8.png')
+st.image('Wind/page_11_pic_8.png')
 
 st.write('---')
 
