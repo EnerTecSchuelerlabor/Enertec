@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 from navigation import hide_default_sidebar_nav, wind_sidebar
 
 st.set_page_config(page_title="Wind", layout="wide")
@@ -39,11 +40,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write('Aufbau Messung offener Spalt')
-    st.image('page_4_pic_1.png')
+    st.image('Wind/page_4_pic_1.png')
     
 with col2:
     st.write('Aufbau Messung geschlossener Spalt')
-    st.image('page_4_pic_2.png')
+    st.image('Wind/page_4_pic_2.png')
 
 st.write('---')
 
@@ -53,7 +54,7 @@ st.subheader('Aufgabe')
 
 st.write('Baut das Experiment entsprechend der Abbildung oben nach. Achtet auf die richtige Konfiguration damit ihr die Ergebnisse vergleichen könnt! Stellt die Last dazu auf Stufe fünf ein. Beginnt damit eine Tabelle auf einem Blatt anzulegen, die wie folgt aussieht: ')
 
-st.image('page_4_pic_3.png')
+st.image('Wind/page_4_pic_3.png')
 
 st.write('Ihr bestimmt hier die Werte für die Spannung U und die Stromstärke I und berechnet die Leistung P. Dabei ergibt sich die Leistung als Produkt aus Stromstärke und Spannung (das heißt ihr multipliziert die Werte miteinander). Misst dazu einmal Spannung U und Stromstärke I für offenen und geschlossenen Luftspalt und betrachtet euch die Ergebnisse.')
 
@@ -97,7 +98,7 @@ if st.session_state['Erklärung (Versuch 4)']:
     
     st.write('In der Tabelle unten seht ihr die Werte für beide Konfigurationen. Man sieht klar, dass die Leistung bei offenem Luftspalt deutlich größer ist. Warum dies der Fall ist, könnt ihr mit den Skizzen unten nachvollziehen.')
 
-    st.image('page_4_pic_4.png', width=500)
+    st.image('Wind/page_4_pic_4.png', width=500)
 
     st.write('Die beiden Skizzen unten zeigen euch den Luftstrom durch rote Pfeile an und die blauen Pfeile geben die Richtung der Bewegung bzw. der Kräfte an. Man sieht bei der Variante mit dem offenen Luftspalt, dass der Luftstrom durch die Mitte strömt und auf die abgewandte Seite des Savonius Generators trifft und dort eine zusätzliche Kraft generiert, die dem Luftstrom, welcher von außen auf die untere Schaufel trifft und die Bewegung eher abbremst, entgegen wirkt und so die Bewegung eher unterstützt. EInfacher nachzuvollziehen ist der Effekt bei geschlossenem Luftspalt: in diesem Fall gibt es keinen Luftstrom durch die Mitte und die Luft, die von außen auf die untere Hälfte des Savonius Generators trifft, bremst diese nur ab und wirkt der Bewegung entgegen. So wird ersichtlich, dass die Konfiguration mit offenem Luftspalt besser ist, da der Luftstrom hier nicht nur die obere Schaufel nutzt um eine Bewgung zu erzeugen, sondern auch der Luftstrom in der unteren Hälfte einen Effekt bewirkt, der die Bewgung unterstützt oder zumindest nicht abschwächt.')
 
@@ -105,11 +106,11 @@ if st.session_state['Erklärung (Versuch 4)']:
 
     with col1:
         st.write('Skizze Luftstrom offener Luftspalt')
-        st.image('page_4_pic_5.png', width=400)
+        st.image('Wind/page_4_pic_5.png', width=400)
         
     with col2:
         st.write('Skizze Luftstrom geschlossener Luftspalt')
-        st.image('page_4_pic_6.png', width=400)
+        st.image('Wind/page_4_pic_6.png', width=400)
         
     st.write('Die Frage nach dem Vorteil des Savonius Generators als Vertikalläufer gegenüber einem Horizontalläufer ist mit den Skizzen oben auch zu beantworten: egal aus welcher Richtung der Wind auf den Generator trifft, er bewirkt eine Bewegung genau wie sie hier zu sehen ist, sodass ein Vertikalläufer keine Nachführung benötigt um eine sich ändernde Windrichtung auszugleichen.')
     
