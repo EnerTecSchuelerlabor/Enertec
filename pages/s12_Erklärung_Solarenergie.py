@@ -38,13 +38,13 @@ st.write('---')
 
 st.subheader('Quelle')
 
-st.image('page_12_pic_1.png', width=600)
+st.image('Solar/page_12_pic_1.png', width=600)
 
 st.write('Quelle: https://www.kindernetz.de/wissen/steckbrief-die-sonne-102.html')
 
 st.write('Die Quelle der Solarenergie ist, wie der Name schon vermuten lässt, unsere Sonne selbst. In dem Stern unseres Sonnensystems findet dabei ein Prozess statt, der sich Kernfusion nennt. Dabei verbinden sich im Gegensatz zur Atomkraft, wie wir sie kennen, mehrere kleine Atome Wasserstoff zu einem größeren Atom Helium und setzen dabei zusätzliche Energie frei.')
 
-st.image('page_12_pic_2.PNG')
+st.image('Solar/page_12_pic_2.PNG')
 
 st.write('Quelle: https://sonnenallianz.spitzen-praevention.com/sonne-und-gesundheit/unsere-sonne/')
 
@@ -62,7 +62,7 @@ st.write('---')
 
 st.subheader('Verbreitung')
 
-st.image('page_12_pic_5.png')
+st.image('Solar/page_12_pic_5.png')
 
 st.write('Quelle: https://www.rechnerphotovoltaik.de/photovoltaik/voraussetzungen/sonneneinstrahlung')
 
@@ -70,7 +70,7 @@ st.write('Auf der Abbildung oben seht ihr die Verteilung der Summe der Strahlung
 
 st.write('Könnt ihr euch vorstellen, warum diese Verteilung so ist? Wo ist es demnach sinnvoll Solaranlagen aufzustellen?')
 
-st.image('page_12_pic_6.png')
+st.image('Solar/page_12_pic_6.png')
 
 st.write('Quelle: https://echtsolar.de/globalstrahlung/')
 
@@ -101,7 +101,7 @@ if st.session_state['Erklärung']:
     
     st.subheader('Erklärung')
     
-    st.image('page_12_pic_7.png')
+    st.image('Solar/page_12_pic_7.png')
     
     st.write('Quelle: https://www.ardalpha.de/wissen/umwelt/klima/wetter-atmosphaere-meteorologie-wolken-wind-regen-luft-100.html')
     
@@ -119,13 +119,13 @@ st.subheader('Nutzung')
 
 st.write('Die Solarenergie lässt sich auf vielfältige Art und Weise nutzen. Im folgenden sollen die beiden Hauptanwendungen kurz vorgestellt werden.')
 
-st.image('page_12_pic_3.png')
+st.image('Solar/page_12_pic_3.png')
 
 st.write('Quelle: https://www.brenner-energie.de/aktuelles-artikel/monokristallin-vs-polykristallin-eine-frage-des-geschmacks')
 
 st.write('Die Abbildung oben zeigt zwei Photovoltaikzellen. Das Wort setzt sich aus dem griechischen Wort für Licht und Volt (für elektrischen Strom) zusammen. Wie die Erklärung andeutet, entsteht dabei elektrischer Strom durch die Einstrahlung von Licht. Photovoltaikzellen werden aus Silizium hergestellt, welches aus gewöhnlichem Quarzsand gewonnen wird. Nach dessen Aufbereitung werden flache Scheiben aus dem Material geschnitten und in Form einer Zelle wie oben zu sehen in ein Gehäuse eingefasst. Dabei unterscheidet man in mono- und polykristalline Photovoltaikzellen, wobei die monokristallinen schwarz sind und die polykristallinen blau sind. Der Unterschied in der Farbe ergibt sich aus einer anderen Anordnung der Kristalle im Material.')
 
-st.image('page_12_pic_4.png')
+st.image('Solar/page_12_pic_4.png')
 
 st.write('Quelle: https://www.fm-solar.de/solarkollektor-shc24_46524_5414/')
 
@@ -139,13 +139,13 @@ st.subheader('Anteil am Strommix')
 
 st.write('Im folgenden beschäftigen wir uns mit dem Anteil der Solarenergie an der Stromerzeugung beziehungsweise dem Anteil des Stroms an der Gesamtenergie.')
 
-st.image('page_12_pic_8.png', width=800)
+st.image('Solar/page_12_pic_8.png', width=800)
 
 st.write('Quelle: https://www.unendlich-viel-energie.de/mediathek/grafiken/der-strommix-in-deutschland-im-jahr-2023')
 
 st.write('Die Abbildung oben zeigt den Strommix in Deutschland im Jahr 2023. Man sieht, dass die erneuerbaren Energien einen Anteil von 52% an der gesamten Stromerzeugung haben. Die Photovoltaik nimmt mit 11,9% an der Gesamtstromerzeugung neben der Windkraft den größten Anteil ein. Auch wenn diese Zahlen vielversprechend aussehen, ist noch ein großer Bedarf vorhanden erneuerbare Energien weiter auszubauen damit unser Strom irgendwann zu 100% aus erneuerbaren Energiequellen gewonnen werden kann.')
 
-st.image('page_12_pic_9.png', width=800)
+st.image('Solar/page_12_pic_9.png', width=800)
 
 st.write('Quelle: https://www.umweltbundesamt.de/daten/energie/primaerenergieverbrauch#definition-und-einflussfaktoren')
 
