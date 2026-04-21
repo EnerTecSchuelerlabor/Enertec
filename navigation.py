@@ -11,7 +11,7 @@ def hide_default_sidebar_nav():
 
 def solar_sidebar():
     with st.sidebar:
-        st.title("Solar-Menü")
+        st.title("Solar-Experiment")
 
         if st.button("← Zurück zur Startseite", use_container_width=True):
             st.switch_page("Startseite.py")
