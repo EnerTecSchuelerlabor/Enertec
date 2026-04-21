@@ -8,8 +8,6 @@ solar_sidebar()
 
 st.title("Solarenergieexperiment")
 
-st.write("Hier ist die Solar-Hauptseite.")
-
 st.logo('Solar/Logo_EnerTec_ohne_Hintergrund.png')
 
 col1, col2, col3 = st.columns(3)
