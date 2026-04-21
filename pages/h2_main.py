@@ -21,7 +21,7 @@ with col3:
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-st.title("Übersicht - Wasserstoffexperiment")
+st.title("Übersicht - Wasserstoffexperiment [under Construction]")
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
@@ -29,7 +29,7 @@ st.subheader('Bitte lesen!')
 
 st.write('Herzlich Willkommen im EnerTec!')
 
-st.write('Ihr befindet euch auf der Startseite des Wasserstoff Workshops [TO DO].')
+st.write('Ihr befindet euch auf der Startseite des Wasserstoff Workshops.')
 
 st.write('Diese Internetseite ist interaktiv aufgebaut. Ihr könnt in der Seitenleiste links die verschiedenen Seiten auswählen und entsprechend verwenden. Diese Webseite enthält mehrere Versuche aus denen ihr auswählen könnt, je nachdem was euch am meisten interessiert. Eine Übersicht über den Inhalt der Versuche findet ihr weiter unten.')
 
