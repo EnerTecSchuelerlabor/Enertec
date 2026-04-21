@@ -65,6 +65,10 @@ IMPRESSUM_HTML = """
 
 st.markdown("""
 <style>
+        section[data-testid="stSidebarNav"] {
+            display: none;
+        }
+
     .block-container {
         padding-top: 1.5rem;
         padding-bottom: 2rem;
