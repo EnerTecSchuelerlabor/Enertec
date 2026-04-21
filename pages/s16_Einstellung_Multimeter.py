@@ -42,7 +42,7 @@ st.write('---')
 
 st.subheader('Schwarz 2000mV')
 
-st.image('schwarz_2000mV.png', width=500)
+st.image('Solar/schwarz_2000mV.png', width=500)
 
 st.write('---')
 
@@ -50,7 +50,7 @@ st.write('---')
 
 st.subheader('Schwarz 20V')
 
-st.image('schwarz_20V.png', width=500)
+st.image('Solar/schwarz_20V.png', width=500)
 
 st.write('---')
 
@@ -58,7 +58,7 @@ st.write('---')
 
 st.subheader('Schwarz 2000mA')
 
-st.image('schwarz_2000mA.png', width=500)
+st.image('Solar/schwarz_2000mA.png', width=500)
 
 st.write('---')
 
@@ -66,7 +66,7 @@ st.write('---')
 
 st.subheader('Schwarz 10A')
 
-st.image('schwarz_10A.png', width=500)
+st.image('Solar/schwarz_10A.png', width=500)
 
 st.write('---')
 
@@ -74,7 +74,7 @@ st.write('---')
 
 st.subheader('Rot mV')
 
-st.image('rot_mV.png', width=500)
+st.image('Solar/rot_mV.png', width=500)
 
 st.write('---')
 
@@ -82,7 +82,7 @@ st.write('---')
 
 st.subheader('Rot V')
 
-st.image('rot_V.png', width=500)
+st.image('Solar/rot_V.png', width=500)
 
 st.write('---')
 
@@ -90,7 +90,7 @@ st.write('---')
 
 st.subheader('Rot mA')
 
-st.image('rot_mA.png', width=500)
+st.image('Solar/rot_mA.png', width=500)
 
 st.write('---')
 
@@ -98,7 +98,7 @@ st.write('---')
 
 st.subheader('Rot A')
 
-st.image('rot_A.png', width=500)
+st.image('Solar/rot_A.png', width=500)
 
 st.write('---')
 
