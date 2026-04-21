@@ -65,9 +65,12 @@ IMPRESSUM_HTML = """
 
 st.markdown("""
 <style>
-        section[data-testid="stSidebarNav"] {
-            display: none;
-        }
+    [data-testid="stSidebar"] {
+        display: none;
+    }
+    [data-testid="collapsedControl"] {
+        display: none;
+    }
 
     .block-container {
         padding-top: 1.5rem;
