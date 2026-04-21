@@ -6,8 +6,6 @@ st.set_page_config(page_title="Solar", layout="wide")
 hide_default_sidebar_nav()
 solar_sidebar()
 
-st.title("Solarenergieexperiment")
-
 st.logo('Solar/Logo_EnerTec_ohne_Hintergrund.png')
 
 col1, col2, col3 = st.columns(3)
@@ -23,7 +21,7 @@ with col3:
     
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-st.title("Startseite")
+st.title("Übersicht - Solarenergieexperiment")
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
