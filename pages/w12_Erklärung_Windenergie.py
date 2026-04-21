@@ -31,7 +31,7 @@ st.write('---')
 
 st.subheader('Quelle')
 
-st.image('page_12_pic_1.png', width=600)
+st.image('Wind/page_12_pic_1.png', width=600)
 
 st.write('Quelle: https://blog.otthydromet.com/de/wind-gust-messung-mit-lufft-ventus-und-v200a/')
 
@@ -39,13 +39,13 @@ st.write('Wind kennt ihr aus eurem Alltag sicherlich. Sei es die leichte Sommerb
 
 st.write('Die eigentliche Quelle für Wind ist dabei auch die Sonne: die Strahlung der Sonne erwärmt die Luftmassen und setzt diese damit in Beweung. Wind ist dann schließlich die Bewegung von Luft zwischen Gebieten mit verschiedenem Druck. Der Luftdruck bedeutet in dem Fall, wie viele Teilchen Luft pro Volumen vorhanden sind. In einem Hochdruckgebiet ist damit also mehr Luft in dem selben Gebiet im Vergleich zu einem Tiefdruckgebiet. Aus dem Wetterbericht kennt ihr diese Begriffe sicherlich, häufig mit einem "H" für ein Hochdruckgebiet und einem "T" für ein Tiefdruckgebiet gekennzeichnet.')
 
-st.image('page_12_pic_2.png')
+st.image('Wind/page_12_pic_2.png')
 
 st.write('Quelle: https://o.quizlet.com/3P46TpaCM-.sb4LfQT4zrw.png')
 
 st.write('Das Bild oben beschreibt einen typischen Aufbau von Windsystemen. Aufgrund der unterschiedlichen Einstrahlung auf der Erde erwärmt sich die Luft am Äquator zum Beispiel stärker wie an den Polen. Nehmen wir als Beispiel das Windsystem am Äquator an: durch die starke Sonneneinstrahlung erwärmt sich die Luft mehr und steigt auf. Diesen Effekt könnt ihr zum Beispiel bei einem Heißluftballon beobachten: wenn Luft wärmer wird, wird sie "leichter" und steigt deswegen auf. Das gleiche passiert hier auch. Da mehr und mehr Luft aufsteigt (Mitte des Bilds) fehlt diese am Boden, ein Tiefdruckgebiet entsteht. Die Luft die aufsteigt, bewirkt in der Höhe ein Hochdruckgebiet. Die Luftmassen verteilen sich dabei zu den Seiten, in dem Beispiel nach Norden und Süden, da nach Osten und Westn hin genauso ein Hochdruckgebiet vorherrscht. Auch am Boden bewegen sich Luftmassen: diese strömen von Norden und Süden zum Äquator um den niedrigen Druck auszugleichen. Dadurch entsteht wie ihr seht eine Zirkulation, also zwei Kreise. Dieses Verhalten findet man nicht nur am Äquator sondern mehrfach auf unserer Erde. Das Bild unten zeigt wie sich die Windsysteme ausbilden. Mit dem Prinzip von oben lässt sich das Bild unten gut erklären.')
 
-st.image('page_12_pic_3.png', width=800)
+st.image('Wind/page_12_pic_3.png', width=800)
 
 st.write('Quelle: https://de.wikipedia.org/wiki/Passat_%28Windsystem%29#/media/Datei:Earth_Global_Circulation_-_de.svg')
 
@@ -53,7 +53,7 @@ st.write('Mit der Erklärung von oben lässt sich das Bild verstehen: über dem 
 
 st.write('Mit einem Blick auf die Abbildung solltet ihr sehen, dass die Winde in unserer Region in Europa meistens von Westen nach Osten wehen, deswegen auch Westwinde genannt. Da die Windsysteme aber nie konstant sind, verschieben sie sich immer ein wenig und deswegen weht der Wind auch mal aus einer anderen Richtung. Dies folgt auch aus den kleineren Hoch- und Tiefdruckgebieten die ihr in der Abildung unten seht.')
 
-st.image('page_12_pic_4.png')
+st.image('Wind/page_12_pic_4.png')
 
 st.write('Quelle: https://uebermedien.de/35732/die-ard-gibt-dem-hessischen-rundfunk-das-wetter-zurueck/')
 
@@ -67,13 +67,13 @@ st.subheader('Verbreitung')
 
 st.write('Hier möchten wir uns mit der Verbreitung von Wind bzw. dessen Windgeschwindigkeit befassen. Wie ihr in einem der Experimente noch sehen werdet, spielt die Windgeschwindigkeit eine große Rolle bei der Effizienz  und dem Ertrag einer Windkraftanlage. Dazu schauen wir uns einmal zwei Karten an, eine für Deutschland und eine für Europa und erklären daran ein paar Effekte.')
 
-st.image('page_12_pic_5.png')
+st.image('Wind/page_12_pic_5.png')
 
 st.write('Quelle: https://pbs.twimg.com/media/Fp-kLehWcAELFbL.jpg')
 
 st.write('Die Karte oben zeigt die Verteilung der Windgeschwindigkeiten über Deutschland. Zu beachten ist hier, dass die Geschwindigkeit in einer Höhe von 120 Metern über Grund gemessen wurde und nicht am Boden. Zu sehen ist klar die Verteilung von Norden nach Süden hin, wobei die Werte im Norden am höchsten sind. Grund dafür ist die Nähe zum Meer und das flache Gebiet. Da Land und Wasser in der Regel unterschiedliche Temperaturen haben, kommt es zu verschiedenen lokalen Druckgebieten und damit zu Winden. Außerdem hilft das flache Gebiet: neben Bauwerken stören auch Wälder und Gebirge den Wind und können lokal die Windstärke verstärken oder meistens eher reduzieren. Deswegen ist die Windgeschwindigkeit im Süden von Deutschland generell geringer.')
 
-st.image('page_12_pic_6.png', width=800)
+st.image('Wind/page_12_pic_6.png', width=800)
 
 st.write('Quelle: https://uol.de/fileadmin/_processed/c/f/csm_wind_langjahriges_mittel_075a181779.png')
 
@@ -87,15 +87,15 @@ st.subheader('Nutzung')
 
 st.write('Nun soll es um die Nutzung der Windenergie gehen. Dazu betrachten wir uns nur die modernen Typen von Anlagen. Auch in der Vergangenheit gibt es Anwendungen die ihr kennt: ein Segelschiff wird durch die Kraft des Windes angetrieben, genau wie eine Getreidemühle den Wind nutzt um Mehl herzustellen. Moderne Anwendungen nutzen die Energie des Windes dagegen rein zur Erzeugung von elektrischen Strom. Unten seht ihr im folgenden drei Bilder: eine kommerzielle Anlage mit horizontalem Läufer und zwei Anlagen mit vertikalem Läufer (erst Savonius Rotor, danach Darrieus Rotor).')
 
-st.image('page_12_pic_7.png')
+st.image('Wind/page_12_pic_7.png')
 
 st.write('Quelle: https://www.deutschlandfunk.de/windkraftanlagen-mit-dem-wartungsfahrstuhl-ganz-nach-oben-100.html')
 
-st.image('page_12_pic_8.png')
+st.image('Wind/page_12_pic_8.png')
 
 st.write('Quelle: https://www.klein-windkraftanlagen.com/technik/vertikale-windkraftanlagen/')
 
-st.image('page_12_pic_9.png')
+st.image('Wind/page_12_pic_9.png')
 
 st.write('Quelle: https://www.klein-windkraftanlagen.com/technik/vertikale-windkraftanlagen/')
 
@@ -106,16 +106,16 @@ st.write('Das zweite Kriterium zur Unterscheidung ist das Funktionsprinzip: Wide
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image('page_12_pic_10.png', width=600)
+    st.image('Wind/page_12_pic_10.png', width=600)
     st.write('Quelle: https://www.wind-energie.de/themen/anlagentechnik/funktionsweise/widerstandlaeufer-auftriebslaeufer/')
     
 with col2:
-    st.image('page_12_pic_11.png')
+    st.image('Wind/page_12_pic_11.png')
     st.write('Quelle: https://www.wind-energie.de/themen/anlagentechnik/funktionsweise/widerstandlaeufer-auftriebslaeufer/')
 
 st.write('Das Bild unten zeigt eine Windkraftanlage als Horizontalläufer mit den typischen Bauteilen. Die Anlage steht auf einem Fundament aus Beton welches im Boden versteckt ist. Darauf steht der Turm oder Mast der die Gondel trägt. In der Gondel selbst sind als größte Bauteile das Getriebe und der Generator untergebracht. Das Getriebe dient zur Anpassung der Drehzahl und dem Drehmoment wobei der Generator die mechanische Energie in elektrische Energie umwandelt. Um die Anlage bei hohen Windstärken vor Beschädigung zu schützen verfügt die Anlage über eine Bremse. Die Rotorblätter sind an der Nabe befestigt, welche über eine Welle mit dem Getriebe verbunden ist. Wie in der Zeichnung dargestellt lassen sich die Rotorblätter verstellen (also den Anstellwinkel anpassen) sowie die Gondel drehen, um sie entsprechend der Windrichtung auszurichten.')
 
-st.image('page_12_pic_14.png')
+st.image('Wind/page_12_pic_14.png')
 
 st.write('Quelle: https://www.lehrerfreund.de/technik/1s/stromerzeugung-mit-windenergieanlagen1/4042')
 
@@ -127,13 +127,13 @@ st.subheader('Anteil am Strommix')
 
 st.write('Im folgenden beschäftigen wir uns mit dem Anteil der Windenergie an der Stromerzeugung beziehungsweise dem Anteil des Stroms an der Gesamtenergie.')
 
-st.image('page_12_pic_12.png', width=800)
+st.image('Wind/page_12_pic_12.png', width=800)
 
 st.write('Quelle: https://www.unendlich-viel-energie.de/mediathek/grafiken/der-strommix-in-deutschland-im-jahr-2023')
 
 st.write('Die Abbildung oben zeigt den Strommix in Deutschland im Jahr 2023. Man sieht, dass die erneuerbaren Energien einen Anteil von 52% an der gesamten Stromerzeugung haben. Die Windenergie nimmt mit 26,8% an der Gesamtstromerzeugung den größten Anteil ein. Auch wenn diese Zahlen vielversprechend aussehen, ist noch ein großer Bedarf vorhanden erneuerbare Energien weiter auszubauen damit unser Strom irgendwann zu 100% aus erneuerbaren Energiequellen gewonnen werden kann.')
 
-st.image('page_12_pic_13.png', width=800)
+st.image('Wind/page_12_pic_13.png', width=800)
 
 st.write('Quelle: https://www.umweltbundesamt.de/daten/energie/primaerenergieverbrauch#definition-und-einflussfaktoren')
 
