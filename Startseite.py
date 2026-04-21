@@ -14,7 +14,7 @@ VERSUCH_1_BILD = "img/solar.png"
 VERSUCH_2_BILD = "img/wind.png"
 VERSUCH_3_BILD = "img/wasserstoff.png"
 
-VERSUCH_1_SEITE = "solar_main.py" 
+VERSUCH_1_SEITE = "pages/solar_main.py" 
 VERSUCH_2_SEITE = "Wind/wind_main.py"
 VERSUCH_3_SEITE = "H2/h2_main.py"
 
