@@ -4,11 +4,11 @@ from navigation import hide_default_sidebar_nav, solar_sidebar
 st.set_page_config(page_title="Wind", layout="wide")
 
 hide_default_sidebar_nav()
-wind_sidebar()
+h2_sidebar()
 
-st.title("Windenergieexperiment")
+st.title("Wasserstoffexperiment")
 
-st.write("Hier ist die Wind-Hauptseite.")
+st.write("Hier ist die Wasserstoff-Hauptseite.")
 
 #st.logo('Logo_EnerTec_ohne_Hintergrund.png')
 
@@ -35,7 +35,7 @@ st.subheader('Bitte lesen!')
 
 st.write('Herzlich Willkommen im EnerTec!')
 
-st.write('Ihr befindet euch auf der Startseite des Wind Workshops.')
+st.write('Ihr befindet euch auf der Startseite des Wasserstoff Workshops [TO DO].')
 
 st.write('Diese Internetseite ist interaktiv aufgebaut. Ihr könnt in der Seitenleiste links die verschiedenen Seiten auswählen und entsprechend verwenden. Diese Webseite enthält mehrere Versuche aus denen ihr auswählen könnt, je nachdem was euch am meisten interessiert. Eine Übersicht über den Inhalt der Versuche findet ihr weiter unten.')
 
@@ -55,33 +55,33 @@ st.write('---')
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-st.write('Versuch 1: Ausgangsleistung einer Windkraftanlage in Abhängigkeit der Flügelanzahl')
+st.write('Versuch 1: x')
 
-st.write('In diesem Versuch bestimmt ihr die Ausgangsleistung einer Windkraftanlage für verschiedene Anzahlen an Flügeln. Wir betrachten die Ergebnisse , bestimmen die optimale Flügelanzahl und diskutieren, warum reale Windkraftanlagen oftmals drei Flügel besitzen. Ein weiterführendes Experiment dazu ist Versuch 2, in dem ihr den Anstellwinkel der Flügel variiert.')
-
-st.write('---')
-
-# ------------------------------------------------------------------------------------------------------------------------ #
-
-st.write('Versuch 2: Ausgangsleistung einer Windkraftanlage in Abhängigkeit des Anstellwinkels')
-
-st.write('Dieser Versuch beschäftigt sich mit dem Anstellwinkel der Flügel einer Windkraftanlage. Neben der Anzahl der Flügel und der Windgeschwindigkeit hat der Winkel einen großen Einfluss auf die Effizienz beziehungsweise Leistung der Windkraftanlage. Dazu führt ihr eine Messreihe durch um den optimalen Winkel zu bestimmen und fomruliert eure Gedanken, warum das so ist.')
+st.write('x.')
 
 st.write('---')
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-st.write('Versuch 3: Ausgangsleistung einer Windkraftanlage in Abhängigkeit der Windgeschwindigkeit')
+st.write('Versuch 2: x')
 
-st.write('Hier soll es um den Einfluss der Windgeschwindigkeit auf die Ausgangsleistung gehen. Wenn es nicht mehr möglich ist, eine Windkraftanlage an sich zu optimieren, geht es an die Suche nach dem besten Standort. Um diesen Prozess und den Einfluss der Windgeschwindigkeit besser verstehen zu können, testet ihr hier mit verschiedenen Windgeschwindigkeiten und betrachtet eine Windkarte von Deutschland um nachvollziehen zu können, wo man am besten Windkraftanlagen platziert.')
+st.write('x.')
 
 st.write('---')
 
 # ------------------------------------------------------------------------------------------------------------------------ #
 
-st.write('Versuch 4: Messungen am Savonius-Generator')
+st.write('Versuch 3: x')
 
-st.write('Im Gegensatz zu den übrigen Versuchen betrachten wir hier eine Windkraftanlage mit einer vertikalen Achse. Ihr untersucht die Funktion dieses Typs der Anlage, bestimmt das Verhalten mit und ohne Spalt und zeichnet eine Strom-Spannungs-Kennlinie auf.')
+st.write('x.')
+
+st.write('---')
+
+# ------------------------------------------------------------------------------------------------------------------------ #
+
+st.write('Versuch 4: x')
+
+st.write('x.')
 
 st.write('---')
 
