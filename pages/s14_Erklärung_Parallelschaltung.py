@@ -32,7 +32,7 @@ st.title('Erklärung Parallelschaltung')
 
 st.write('Auf dieser Seite wird die Parallelschaltung erklärt. Das Bild unten stellt Reihen- und Parallelschaltung gegenüber. Wie der Name vermuten lässt, werden elektrische Verbraucher (z.B. Widerstände, Glühbirnen, etc.) oder Quellen (z.B. Solarzellen, Spannungsquellen, etc.) parallel also nebeneinander geschaltet. Dies bedeutet, dass sich der Strom aufteilt und durch jedes Bauteil fließt.')
 
-st.image('page_14_pic_1.png')
+st.image('Solar/page_14_pic_1.png')
 
 st.write('Quelle: https://kfz-schule.com/reihenschaltung-parallelschaltung/')
 
@@ -44,7 +44,7 @@ st.write('---')
 
 st.subheader('Parallelschaltung (1-fach)')
 
-st.image('Parallelschaltung_1.png')
+st.image('Solar/Parallelschaltung_1.png')
 
 st.write('---')
 
@@ -52,7 +52,7 @@ st.write('---')
 
 st.subheader('Parallelschaltung (2-fach)')
 
-st.image('Parallelschaltung_2.png')
+st.image('Solar/Parallelschaltung_2.png')
 
 st.write('---')
 
@@ -60,7 +60,7 @@ st.write('---')
 
 st.subheader('Parallelschaltung (3-fach)')
 
-st.image('Parallelschaltung_3.png')
+st.image('Solar/Parallelschaltung_3.png')
 
 st.write('---')
 
@@ -68,7 +68,7 @@ st.write('---')
 
 st.subheader('Parallelschaltung (4-fach)')
 
-st.image('Parallelschaltung_4.png')
+st.image('Solar/Parallelschaltung_4.png')
 
 st.write('---')
 
