@@ -32,7 +32,7 @@ st.title("Versuch 6")
 
 st.write('In diesem Versuch beschäftigen wir uns mit dem Wirkungsgrad einer Solarzelle. Dazu werdet ihr in zwei Teilaufgaben jeweils die aufgenommene Leistung der Solarzelle sowie die abgegebene Leistung der Solarzelle bestimmen. Dazu findet ihr hier zwei mal hintereinander jeweils einen Teil "Aufbau" und einen Teil "Aufgabe". Bearbeitet diese jeweils hintereinander und kombiniert die Ergebnisse am Ende. Die Hinweise zur Einstellung der Multimeter findet ihr hier jeweils im Teil "Aufgabe".')
 
-st.image('page_6_pic_1.png')
+st.image('Solar/page_6_pic_1.png')
 
 st.write('Quelle: https://www.sbz-monteur.de/elektro/entscheidend-ist-was-hinten-rauskommt')
 
@@ -44,7 +44,7 @@ st.write('---')
 
 st.subheader('Aufbau:')
 
-st.image('page_6_pic_2.png')
+st.image('Solar/page_6_pic_2.png')
 
 st.write('---')
 
@@ -120,7 +120,7 @@ st.write('---')
 
 st.subheader('Aufbau:')
 
-st.image('page_6_pic_3.png')
+st.image('Solar/page_6_pic_3.png')
 
 st.write('---')
 
@@ -134,7 +134,7 @@ st.write('Hinweis Strommessung: schaut bitte unter "Einstellung Multimeter" nach
 
 st.write('Im zweiten Teil der Aufgabe bestimmen wir die abgegebene Leistung der Solarzelle. Im Sinne der Bestimmung des Wirkungsgrades, möchten wir den Punkt finden, an dem die abgegebene Leistung der Solarzelle maximal wird damit der Wirkungsgrad möglichst groß wird. Baut den Aufbau aus der Abbildung oben nach und legt im Anschluss die Tabelle an, die ihr unten findet.')
 
-st.image('page_6_pic_4.png')
+st.image('Solar/page_6_pic_4.png')
 
 st.write('Diese Tabelle dient euch als Hilfe beim Ausfüllen bzw. während des Experiments. Diese Tabelle ist dabei wie folgt zu verstehen: wir möchten verschiedene Paare aus Spannung U und Stromstärke I testen. Dazu sind euch bestimmte Werte vorgegeben, entweder ein Wert für die Stromstärke I oder die Spannung U. Ihr könnt die verschiedenen Punkte erreichen, indem ihr den Drehregler des Messbox verändert. Sobald ihr einen der Werte ungefähr eingestellt habt, notiert euch den anderen.')
 
@@ -267,11 +267,11 @@ if st.session_state['Erklärung (Versuch 6)']:
     
     st.write('Sollte eure Messung nicht funktioniert haben, könnt ihr hier die benötigte Leistung P_ab identifizieren und den Wirkungsgrad berechnen. Sollte es funktioniert haben, klappt den Rest der Erklärung unter "Einblenden" aus.')
     
-    st.image('page_6_pic_5.png')
+    st.image('Solar/page_6_pic_5.png')
     
     st.write('')
     
-    st.image('page_6_pic_6.png')
+    st.image('Solar/page_6_pic_6.png')
     
     col1, col2, col3 = st.columns([0.45, 0.1, 0.45])
 
@@ -308,7 +308,7 @@ if st.session_state['Erklärung (Versuch 6)']:
         
         st.write('Außerdem gibt es verschiedene Typen von Solarzellen bzw. genauer Photovoltaik Modulen. Diese unterscheiden sich natürlich im Wirkungsgrad, was hauptsächlich durch die Auswahl der Materialien folgt. In der Abbildung unten sieht man ein paar Beispiele für verschiedene Typen von Photovoltaik Modulen.')
         
-        st.image('page_6_pic_7.png')
+        st.image('Solar/page_6_pic_7.png')
         
         st.write('Quelle: https://sveasolar.de/de-de/photovoltaik-ratgeber/arten-von-solarzellen')
         
