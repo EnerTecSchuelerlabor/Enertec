@@ -1,217 +1,160 @@
-
 import streamlit as st
+from language import get_language, set_language, lang
 
-st.set_page_config(
-    page_title="EnerTec Workshop",
-    layout="wide"
-)
+st.set_page_config(page_title="EnerTec Workshop", page_icon="⚡", layout="wide")
 
+# Vorhandene Dateinamen und Seitenpfade bleiben erhalten.
 ENERTEC_LOGO = "img/enertec_logo.png"
 STIFTUNG_LOGO = "img/enfo_logo.png"
 LEHRSTUHL_LOGO = "img/aes_logo.png"
 
-VERSUCH_1_BILD = "img/solar.png"
-VERSUCH_2_BILD = "img/wind.png"
-VERSUCH_3_BILD = "img/wasserstoff.png"
-
-VERSUCH_1_SEITE = "pages/solar_main.py" 
-VERSUCH_2_SEITE = "pages/wind_main.py"
-VERSUCH_3_SEITE = "pages/h2_main.py"
-
-APP_TITEL = "EnerTec Workshop"
-
-EINLEITUNG = """
-Herzlich Willkommen in der spannenden Welt der erneuerbaren Energien bei EnerTec an der Universität des Saarlandes!
-
-Auf dieser Seite könnt ihr zwischen drei spannenden Experimenten wählen. Die Betreuer vor Ort unterstützen euch gerne bei der Auswahl und Durchführung. Klickt einfach auf eine Kachel, um direkt zur passenden Experimentierseite zu gelangen. Dort findet ihr Anleitungen, Zusatzinformationen und Hilfen zum Aufbau.
-
-Bei Fragen meldet euch gerne bei den Betreuern. Ansonsten: Jetzt seid ihr dran! Viel Spaß beim Experimentieren!
-"""
-
-VERSUCH_1_TITEL = "Experiment mit Solarenergie"
-VERSUCH_1_TEXT = (
-    "Lernt mit Solarzellen vertraut zu machen und ihre Eigenschaften zu verstehen."
-)
-
-VERSUCH_2_TITEL = "Experiment mit Windenergie"
-VERSUCH_2_TEXT = (
-    "Lernt mit Windkraftanlagen vertraut zu werden und ihre Eigenschaften zu verstehen."
-)
-
-VERSUCH_3_TITEL = "Experiment mit Wasserstoffenergie"
-VERSUCH_3_TEXT = (
-    "Erforscht die Eigenschaften von Wasserstoff als Energieträger und seine Anwendung in der Energieversorgung."
-)
-
-HINWEIS_TEXT = (
-    "Tipp: Auf den Versuchsseiten findet ihr zusätzliche Versuche und Erklärungen, "
-    "Bilder zum Aufbau und Hilfen zur Durchführung."
-)
-
-IMPRESSUM_HTML = """
-<div class="footer-box">
-    <b>Impressum</b><br>
-    EnerTec - Lehrstuhl für Automatisierungs- und Energiesysteme<br>
-    Universität des Saarlandes<br>Campus<br>66123 Saarbrücken<br><br>
-    <b>Website am Lehrstuhl</b><br>
-    <a href="https://www.uni-saarland.de/lehrstuhl/frey/enertec.html" target="_blank">
-    https://www.uni-saarland.de/lehrstuhl/frey/enertec.html
-    </a><br><br>
-    <b>Kontakt</b><br>
-    <a href="mailto:enertec@uni-saarland.de">enertec@uni-saarland.de</a><br><br>
-</div>
-"""
-
+EXPERIMENTE = [
+    {
+        "bild": "img/solar.png",
+        "name": ("Solarenergie", "Solar energy"),
+        "titel": ("Experiment mit Solarenergie", "Solar energy experiment"),
+        "text": (
+            "Erfahrt, wie Solarzellen Licht in elektrische Energie umwandeln, und untersucht ihre Eigenschaften.",
+            "Discover how solar cells convert sunlight into electricity and explore their properties.",
+        ),
+        "ziel": "pages/solar_main.py",
+        "key": "solar",
+        "nummer": "01",
+    },
+    {
+        "bild": "img/wind.png",
+        "name": ("Windenergie", "Wind energy"),
+        "titel": ("Experiment mit Windenergie", "Wind energy experiment"),
+        "text": (
+            "Findet heraus, wie Windkraftanlagen funktionieren und welche Faktoren die Energieerzeugung beeinflussen.",
+            "Find out how wind turbines work and what affects the amount of energy they produce.",
+        ),
+        "ziel": "pages/wind_main.py",
+        "key": "wind",
+        "nummer": "02",
+    },
+    {
+        "bild": "img/wasserstoff.png",
+        "name": ("Wasserstoff", "Hydrogen"),
+        "titel": ("Experiment mit Wasserstoff", "Hydrogen experiment"),
+        "text": (
+            "Erforscht, wie Wasserstoff durch Elektrolyse entsteht und in einer Brennstoffzelle Strom liefert.",
+            "Explore how electrolysis produces hydrogen and how a fuel cell generates electricity.",
+        ),
+        "ziel": "pages/h2_main.py",
+        "key": "h2",
+        "nummer": "03",
+    },
+]
 
 st.markdown("""
 <style>
-    [data-testid="stSidebar"] {
-        display: none;
-    }
-    [data-testid="collapsedControl"] {
-        display: none;
-    }
-
-    .block-container {
-        padding-top: 1.5rem;
-        padding-bottom: 2rem;
-        max-width: 1400px;
-    }
-
-    .hero-box {
-        background: #f7f9fc;
-        border-radius: 18px;
-        padding: 1.6rem 2rem;
-        margin-top: 0.4rem;
-        margin-bottom: 2rem;
-        border: 1px solid #e6ebf2;
-        min-height: 220px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .hero-title {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin-bottom: 0.6rem;
-        color: #1f2d3d;
-    }
-
-    .hero-text {
-        font-size: 1.05rem;
-        line-height: 1.7;
-        color: #425466;
-    }
-
-    .section-title {
-        font-size: 1.4rem;
-        font-weight: 700;
-        margin-top: 0.2rem;
-        margin-bottom: 1rem;
-        color: #1f2d3d;
-    }
-
-    .card-title {
-        font-size: 1.2rem;
-        font-weight: 700;
-        margin-top: 0.8rem;
-        margin-bottom: 0.4rem;
-        color: #1f2d3d;
-    }
-
-    .card-text {
-        font-size: 0.98rem;
-        line-height: 1.55;
-        color: #4f6378;
-        min-height: 95px;
-    }
-
-    .small-note {
-        color: #607080;
-        font-size: 0.95rem;
-        margin-top: 1rem;
-    }
-
-    .footer-box {
-        margin-top: 3rem;
-        padding-top: 1.5rem;
-        border-top: 1px solid #d9e1ea;
-        color: #607080;
-        font-size: 0.92rem;
-        line-height: 1.7;
-    }
-
-    div[data-testid="stButton"] > button {
-        border-radius: 12px;
-        min-height: 48px;
-        font-weight: 600;
-    }
+  [data-testid="stSidebar"], [data-testid="collapsedControl"] {display:none;}
+  .block-container {max-width: 1320px; padding-top: 1.15rem; padding-bottom: 2rem;}
+  .enertec-eyebrow {font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;
+    font-weight:750;color:#16858c;margin:.2rem 0 .5rem;}
+  .enertec-heading {font-size:clamp(2rem,4vw,3.35rem);font-weight:820;
+    letter-spacing:-.045em;line-height:1.12;margin:0 0 .85rem;}
+  .enertec-lead {font-size:1.06rem;line-height:1.8;max-width:740px;
+    color:var(--text-color);opacity:.84;}
+  .enertec-strip {padding:.75rem 1rem;border-radius:12px;
+    background:rgba(36,155,157,.09);border:1px solid rgba(36,155,157,.23);
+    font-size:.94rem;line-height:1.6;}
+  .enertec-num {font-size:.78rem;font-weight:800;letter-spacing:.1em;color:#188d93;}
+  .enertec-card-title {font-size:1.25rem;font-weight:800;letter-spacing:-.015em;margin:.3rem 0 .4rem;}
+  .enertec-card-copy {min-height:5.8rem;line-height:1.6;opacity:.85;font-size:.94rem;}
+  .enertec-footer {border-top:1px solid rgba(125,135,145,.25);padding-top:1.2rem;
+    margin-top:2rem;font-size:.9rem;line-height:1.85;opacity:.85;}
+  .enertec-footer a {color:#159aa2;}
+  div[data-testid="stButton"] > button {border-radius:12px;min-height:45px;font-weight:650;}
+  div[data-testid="stVerticalBlockBorderWrapper"] {border-radius:18px;}
+  @media(max-width:700px){.enertec-card-copy{min-height:auto}.block-container{padding-top:.7rem}}
 </style>
 """, unsafe_allow_html=True)
 
-def versuchskachel(bild, titel, text, button_text, zielseite, key):
-    st.image(bild, use_container_width=True)
-    st.markdown(f'<div class="card-title">{titel}</div>', unsafe_allow_html=True)
-    st.markdown(f'<div class="card-text">{text}</div>', unsafe_allow_html=True)
-    if st.button(button_text, use_container_width=True, key=key):
-        st.switch_page(zielseite)
+# Kopfzeile mit Logos und Sprache
+logo_links, language_area = st.columns([4.3, 1.4], gap="large", vertical_alignment="center")
+with logo_links:
+    a, b, c = st.columns([1.2, 1, 1], gap="medium", vertical_alignment="center")
+    with a:
+        st.image(ENERTEC_LOGO, width=155)
+    with b:
+        st.image(STIFTUNG_LOGO, width=138)
+    with c:
+        st.image(LEHRSTUHL_LOGO, width=130)
+with language_area:
+    st.caption(lang("SPRACHE / LANGUAGE", "LANGUAGE / SPRACHE"))
+    de_col, en_col = st.columns(2, gap="small")
+    with de_col:
+        st.button("🇩🇪 DE", key="choose_de", use_container_width=True,
+                  type="primary" if get_language() == "DE" else "secondary",
+                  on_click=set_language, args=("DE",))
+    with en_col:
+        st.button("🇬🇧 EN", key="choose_en", use_container_width=True,
+                  type="primary" if get_language() == "EN" else "secondary",
+                  on_click=set_language, args=("EN",))
 
-left_col, center_col, right_col = st.columns([1.1, 2.6, 1.3], gap="large")
+st.write("")
 
-with left_col:
-    st.image(ENERTEC_LOGO, use_container_width=True)
-
-with center_col:
-    st.markdown(f"""
-    <div class="hero-box">
-        <div class="hero-title">{APP_TITEL}</div>
-        <div class="hero-text">{EINLEITUNG.replace(chr(10), "<br>")}</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with right_col:
-    st.image(STIFTUNG_LOGO, use_container_width=True)
+with st.container(border=True):
+    st.markdown('<div class="enertec-eyebrow">UNIVERSITÄT DES SAARLANDES · ENERTEC</div>',
+                unsafe_allow_html=True)
+    st.markdown('<div class="enertec-heading">EnerTec Workshop ⚡</div>',
+                unsafe_allow_html=True)
+    st.markdown(
+        f'<div class="enertec-lead">{lang("Willkommen in der Welt der erneuerbaren Energien! "
+          "Entdeckt Solarenergie, Windkraft und Wasserstoff mit spannenden Experimenten. "
+          "Wählt unten ein Thema aus und startet direkt mit dem Forschen.",
+          "Welcome to the world of renewable energy! Explore solar power, wind energy "
+          "and hydrogen through hands-on experiments. Choose a topic below and start exploring.")}</div>',
+        unsafe_allow_html=True,
+    )
     st.write("")
-    st.image(LEHRSTUHL_LOGO, use_container_width=True)
-
-st.markdown('<div class="section-title">Wählt ein Experiment</div>', unsafe_allow_html=True)
-
-col1, col2, col3 = st.columns(3, gap="large")
-
-with col1:
-    versuchskachel(
-        bild=VERSUCH_1_BILD,
-        titel=VERSUCH_1_TITEL,
-        text=VERSUCH_1_TEXT,
-        button_text="Zum Solarenergie-Experiment",
-        zielseite=VERSUCH_1_SEITE,
-        key="v1"
+    st.markdown(
+        '<div class="enertec-strip">' + lang(
+            "🧪 <b>So funktioniert’s:</b> Experiment auswählen → Anleitung ansehen → "
+            "Aufbau mit den Betreuenden prüfen → ausprobieren und Messwerte eintragen.",
+            "🧪 <b>How it works:</b> Choose an experiment → Read the instructions → "
+            "Check your setup with a supervisor → Experiment and enter your measurements.")
+        + '</div>', unsafe_allow_html=True,
     )
 
-with col2:
-    versuchskachel(
-        bild=VERSUCH_2_BILD,
-        titel=VERSUCH_2_TITEL,
-        text=VERSUCH_2_TEXT,
-        button_text="Zum Windkraft-Experiment",
-        zielseite=VERSUCH_2_SEITE,
-        key="v2"
-    )
+st.write("")
+st.subheader(lang("Wählt euer Experiment", "Choose your experiment"))
+st.caption(lang("Drei Themen – viele Möglichkeiten zum Entdecken.",
+                "Three topics – plenty to explore."))
 
-with col3:
-    versuchskachel(
-        bild=VERSUCH_3_BILD,
-        titel=VERSUCH_3_TITEL,
-        text=VERSUCH_3_TEXT,
-        button_text="Zum Wasserstoff-Experiment",
-        zielseite=VERSUCH_3_SEITE,
-        key="v3"
-    )
+cols = st.columns(3, gap="large")
+for col, exp in zip(cols, EXPERIMENTE):
+    with col:
+        with st.container(border=True):
+            st.image(exp["bild"], use_container_width=True)
+            st.markdown(f'<div class="enertec-num">EXPERIMENT {exp["nummer"]}</div>',
+                        unsafe_allow_html=True)
+            st.markdown(f'<div class="enertec-card-title">{lang(*exp["name"])}</div>',
+                        unsafe_allow_html=True)
+            st.markdown(f'<div class="enertec-card-copy">{lang(*exp["text"])}</div>',
+                        unsafe_allow_html=True)
+            if st.button(lang("Experiment starten", "Start experiment") + " →",
+                         key="open_" + exp["key"], use_container_width=True,
+                         type="primary" if exp["key"] == "h2" else "secondary"):
+                st.switch_page(exp["ziel"])
 
-st.markdown(
-    f'<div class="small-note">{HINWEIS_TEXT}</div>',
-    unsafe_allow_html=True
-)
+st.write("")
+st.info(lang(
+    "💡 **Tipp:** Auf den Versuchsseiten findet ihr Aufbauhilfen, Erklärungen und Videos. "
+    "Bei Fragen helfen euch die Betreuenden vor Ort.",
+    "💡 **Tip:** Each experiment page includes setup instructions, explanations and videos. "
+    "Ask the supervisors if you need any help."))
 
-st.markdown(IMPRESSUM_HTML, unsafe_allow_html=True)
+st.markdown('<div class="enertec-footer">', unsafe_allow_html=True)
+foot_a, foot_b = st.columns([1.4, 1], gap="large")
+with foot_a:
+    st.markdown("**" + lang("Impressum", "Legal information") + "**")
+    st.write("EnerTec – Lehrstuhl für Automatisierungs- und Energiesysteme  \n"
+             "Universität des Saarlandes  \nCampus  \n66123 Saarbrücken")
+with foot_b:
+    st.markdown("**" + lang("Kontakt & weitere Informationen", "Contact & more information") + "**")
+    st.markdown("[EnerTec – Universität des Saarlandes](https://www.uni-saarland.de/lehrstuhl/frey/enertec.html)")
+    st.markdown("✉️ [enertec@uni-saarland.de](mailto:enertec@uni-saarland.de)")
+st.markdown('</div>', unsafe_allow_html=True)
